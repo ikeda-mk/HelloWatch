@@ -17,7 +17,13 @@
                         <label width="1" alignment="center" text="Hello Watch" textAlignment="center" id="L5P-UH-njQ">
                             <fontDescription key="font" style="UICTFontTextStyleBody"/>
                         </label>
+                        <label alignment="left" text="Label" id="qiy-et-3wx"/>
+                        <label alignment="left" text="Label" id="1lP-1G-QTl"/>
                     </items>
+                    <connections>
+                        <outlet property="latLabel" destination="qiy-et-3wx" id="xg6-SZ-UQh"/>
+                        <outlet property="lonLabel" destination="1lP-1G-QTl" id="Yut-s0-aKx"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>

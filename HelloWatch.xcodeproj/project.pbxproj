@@ -19,6 +19,8 @@
 		243BCD492316C74100CDF093 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BCD482316C74100CDF093 /* InterfaceController.swift */; };
 		243BCD4B2316C74100CDF093 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BCD4A2316C74100CDF093 /* ExtensionDelegate.swift */; };
 		243BCD4D2316C74200CDF093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243BCD4C2316C74200CDF093 /* Assets.xcassets */; };
+		243BCD5D2316D02200CDF093 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BCD5C2316D02200CDF093 /* LocationManager.swift */; };
+		243BCD5E2316E5F100CDF093 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BCD5C2316D02200CDF093 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,7 @@
 		243BCD4A2316C74100CDF093 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		243BCD4C2316C74200CDF093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		243BCD4E2316C74200CDF093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243BCD5C2316D02200CDF093 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,7 @@
 				243BCD2C2316C74100CDF093 /* Assets.xcassets */,
 				243BCD2E2316C74100CDF093 /* LaunchScreen.storyboard */,
 				243BCD312316C74100CDF093 /* Info.plist */,
+				243BCD5C2316D02200CDF093 /* LocationManager.swift */,
 			);
 			path = HelloWatch;
 			sourceTree = "<group>";
@@ -288,6 +292,7 @@
 			files = (
 				243BCD282316C73E00CDF093 /* ViewController.swift in Sources */,
 				243BCD262316C73E00CDF093 /* AppDelegate.swift in Sources */,
+				243BCD5D2316D02200CDF093 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +302,7 @@
 			files = (
 				243BCD4B2316C74100CDF093 /* ExtensionDelegate.swift in Sources */,
 				243BCD492316C74100CDF093 /* InterfaceController.swift in Sources */,
+				243BCD5E2316E5F100CDF093 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
